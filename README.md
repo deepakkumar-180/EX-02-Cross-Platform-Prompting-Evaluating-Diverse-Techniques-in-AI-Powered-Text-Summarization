@@ -146,6 +146,50 @@ Why Blockchain Matters The advantages of this architecture are transformative. F
 Finally, blockchain eliminates the "middleman." In traditional systems, we pay fees to banks or clearinghouses to act as the "trusted" third party. Blockchain replaces this human trust with cryptographic proof. This reduces costs, speeds up transaction times, and provides financial access to people who may not have access to traditional banking infrastructure.
 
 In conclusion, blockchain is a foundational technology. While it began with Bitcoin, its ability to create a secure, transparent, and decentralized record of "the truth" makes it a revolutionary tool for everything from voting systems to global supply chains.</p>
-## Result
+<h1>Claude -Prompting Techniques in Generative AI</h1>
+<h4>Zero-Shot Prompt</h4>
+<p> Zero-Shot Prompt Summarize the following article about “The Basics of Blockchain Technology”? Blockchain is a distributed digital ledger technology that records transactions across a network of computers in a way that is secure, transparent, and tamper-resistant. Core Concepts Structure: Data is stored in "blocks" that are cryptographically linked together in a chronological "chain." Each block contains a set of transactions, a timestamp, and a unique hash that connects it to the previous block. Decentralization: Unlike traditional databases controlled by a central authority (like a bank), blockchain is maintained by a distributed network of nodes (computers). No single entity owns or controls it. Consensus Mechanisms: To validate new transactions, the network uses agreement protocols such as Proof of Work (PoW) or Proof of Stake (PoS), ensuring all participants agree on the state of the ledger. Immutability: Once a block is added to the chain, altering it would require changing all subsequent blocks — computationally nearly impossible — making the record permanent and trustworthy. Transparency & Privacy: All transactions are visible to participants on the network, yet identities can remain pseudonymous. Key Applications
 
+Cryptocurrency (e.g., Bitcoin, Ethereum) Smart Contracts — self-executing agreements coded on the blockchain Supply Chain Management — tracking goods from origin to consumer Healthcare — secure sharing of patient records Voting Systems — tamper-proof digital elections</p>
+<h4>Few-Shot Prompt</h4>
+<p>Few-Shot Prompt Example 1 Topic: Artificial Intelligence Summary: Artificial Intelligence is a technology that enables machines to simulate human intelligence, learn from data, and perform tasks such as problem-solving and decision-making.
+
+Example 2 Topic: Cloud Computing Summary: Cloud computing allows users to store and access data and applications over the internet instead of local computers, providing flexibility, scalability, and lower costs?
+
+🔷 Core Components1. 🧱 Block Each block contains:
+
+Data — transaction details Hash — a unique cryptographic fingerprint Previous Hash — links it to the prior block Timestamp — when the block was created 2. ⛓️ Chain Blocks are linked sequentially. Altering one block breaks the entire chain, ensuring immutability.3. 🌐 Network (Nodes) A peer-to-peer network of computers that collectively validate and store the blockchain — no central authority needed.🔷 How Blockchain WorksStep 1: A transaction is initiated ↓ Step 2: Transaction is broadcast to the P2P network ↓ Step 3: Network nodes validate the transaction ↓ Step 4: Verified transaction is combined with others into a Block ↓ Step 5: Block is added to the existing chain (permanent record) ↓ Step 6: Transaction complete ✅🔷 Key PropertiesPropertyDescriptionDecentralizedNo single point of controlImmutableRecords cannot be altered or deletedTransparentVisible to all network participantsSecureCryptographic hashing protects dataTrustlessNo need for intermediaries🔷 Types of Blockchain🔓 Public Blockchain
+
+Open to anyone Examples: Bitcoin, Ethereum Fully decentralized 🔒 Private Blockchain
+
+Restricted access Controlled by an organization Examples: Hyperledger, Corda 🔐 Consortium Blockchain
+
+Shared among a group of organizations Semi-decentralized Examples: R3, Energy Web Chain 🔁 Hybrid Blockchain
+
+Combination of public and private Examples: Dragonchain, XinFin</p>
+<h4>Chain-of-Thought Prompt</h4>
+<p>Chain-of-Thought Prompt First identify the main ideas such as the definition of blockchain, how it works, key components (blocks, nodes, and hashing), and its advantages. Then think through these points step by step and organize them logically. Finally, write a clear 500-word summary explaining the basics of blockchain technology?
+
+Chain-of-Thought: Blockchain Technology Summary
+
+🧠 STEP 1: Identify the Main Ideas Before writing, let's extract the key concepts: #Main IdeaCore Point1DefinitionWhat blockchain is2How It WorksThe process of recording transactions3Key ComponentsBlocks, Nodes, Hashing4AdvantagesWhy it matters & its benefits
+
+🔄 STEP 2: Think Through Each Point Logically → Definition first — establish what blockchain is before explaining how it works → Components second — understand the building blocks (blocks, nodes, hashing) before the process → How it works third — now that we know the parts, explain how they function together → Advantages last — conclude with why it matters in the real world
+
+✍️ STEP 3: The 500-Word Summary
+
+Blockchain Technology: The Basics Explained Definition Blockchain technology is a revolutionary form of digital record-keeping that has transformed how data is stored, shared, and secured. At its core, a blockchain is a distributed digital ledger — a continuously growing list of records, called blocks, that are linked together and secured using cryptography. Unlike traditional databases managed by a central authority such as a bank or government, blockchain operates across a decentralized peer-to-peer network, meaning no single entity owns or controls it. Every participant in the network holds an identical copy of the ledger, making the system inherently transparent and resistant to manipulation.
+
+Key Components To understand blockchain, it is essential to grasp its three foundational components: 🧱 Blocks are the individual units of data in a blockchain. Each block contains a set of transaction records, a timestamp indicating when it was created, and two critical pieces of cryptographic data — its own unique hash and the hash of the previous block. This linkage is what forms the "chain" in blockchain. 🔑 Hashing is the cryptographic process that converts any input of data into a fixed-length string of characters, known as a hash or digital fingerprint. Even the smallest change in the original data produces an entirely different hash, making it virtually impossible to alter records without detection. This is the backbone of blockchain's security and immutability. 🌐 Nodes are the individual computers that participate in the blockchain network. Each node stores a full copy of the blockchain and plays a role in validating new transactions. When a new transaction is submitted, nodes work together through a consensus mechanism — such as Proof of Work or Proof of Stake — to verify its legitimacy before it is permanently added to the chain.
+
+How It Works The blockchain process follows a clear and logical sequence. First, a user initiates a transaction, such as sending cryptocurrency or signing a digital contract. This transaction is then broadcast to the network, where thousands of nodes receive and evaluate it. Once the majority of nodes reach consensus and validate the transaction, it is bundled together with other verified transactions into a new block. That block is then cryptographically sealed with a unique hash and appended to the end of the existing chain, creating a permanent and unalterable record. Because each block contains the hash of the previous block, the entire chain is interconnected — tampering with any single block would instantly invalidate every block that follows it.
+
+Advantages Blockchain offers a compelling set of advantages that explain its rapid adoption across industries: ✅ Decentralization eliminates the need for intermediaries like banks or brokers, reducing costs and increasing efficiency. ✅ Immutability ensures that once data is recorded, it cannot be altered or deleted, creating a reliable and permanent audit trail. ✅ Transparency allows all network participants to view transaction history, fostering trust between parties. ✅ Security through cryptographic hashing makes blockchain one of the most tamper-resistant data systems available today. ✅ Trustless Transactions enable two parties who have never met to exchange value or information confidently, without relying on a third party.
+
+Conclusion Blockchain technology represents a fundamental shift in how the digital world records and shares information. By combining decentralization, cryptographic security, and transparent consensus, it creates a system where trust is built into the technology itself — not dependent on any single institution or authority. From finance and healthcare to supply chains and voting systems, blockchain's potential to reshape industries is only beginning to be realized.
+
+</p>
+
+## Result
+<img width="1287" height="371" alt="560042625-a240a60a-0e2f-4255-b531-e97a181b60f1" src="https://github.com/user-attachments/assets/3364d863-5aa5-49c2-bb2a-bbfd336a9844" />
 
